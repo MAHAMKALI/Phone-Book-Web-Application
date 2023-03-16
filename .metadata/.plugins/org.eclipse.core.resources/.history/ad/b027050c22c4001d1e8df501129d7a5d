@@ -1,0 +1,9 @@
+package com.iThelp.phonebook.service;
+
+import org.springframework.http.ResponseEntity;
+
+import com.iThelp.phonebook.Entities.Contact;
+
+public class ContactService {
+	public Contact addContact(Contact contact);
+}
